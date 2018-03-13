@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "Jean Farrugia's Resume",
+  "main": "resume.json",
+  "dependencies": {
+    "jsonresume-theme-kwan": "git+https://github.com/frg/jsonresume-theme-kwan.git",
+    "hackmyresume": "^1.9.0-beta"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.0.0",
+    "rename-cli": "^5.0.0"
+  },
+  "scripts": {
+    "postinstall": "npm --prefix ./node_modules/jsonresume-theme-kwan install ./node_modules/jsonresume-theme-kwan && npm run generate && npm run ghpages",
+    "generate": "hackmyresume build resume.json TO dist/resume.all -t node_modules/jsonresume-theme-kwan --pdf none && hackmyresume build resume.json TO dist/resume.txt dist/resume.md dist/resume.doc",
+    "ghpages": "copyfiles -f \"./dist/resume.html\" ./ && rename resume.html index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume",
+    "jean",
+    "farrugia",
+    "jean",
+    "auto"
+  ],
+  "author": "Jean Farrugia",
+  "license": "MIT"
+}
