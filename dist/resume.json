@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-13T20:50:56.223Z"
+    "modified": "2018-03-13T21:15:09.408Z"
   },
   "location": {
     "city": "Birżebbuġa",
@@ -33,7 +33,7 @@
         "keywords": [],
         "highlights": [
           "Planning & Development of multiple Casino & Sports brands looking to integrate with the iGaming Cloud platform",
-          "Development of multiple common Libraries & SDK's (iGamingCloud, Telesign, etc.)",
+          "Development of multiple common Libraries & SDK's (GiG Core Platform, Telesign, etc.)",
           "Horizontally scalable, config defined Rules Engine, driven by the ingress of messages (File, RabbitMQ, etc.) w/ multiple egress options (APIs, Web Sockets, File, etc.)",
           "Review & Interview candidates for various Software Development roles"
         ]
