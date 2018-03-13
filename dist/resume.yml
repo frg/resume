@@ -4,13 +4,13 @@ basics:
   email: jeanfrg@gmail.com
   phone: '***REMOVED***'
   website: 'https://jf.mt'
-  summary: 'Jean hails from Malta. He has earned a degree from the University of Middlesex. Before his work with Gaming Innovation Group, he worked for ICT2biz right out of University where achieving a rainbow of technologies was the aim of the company. While his work now focuses mainly on Web Development, occasionally he is pulled into various kinds of projects were business sees fit. His non-work interests range widely, everything from bodging tools together to creating the ever so distant -- perfect project template.'
+  summary: 'Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.'
   location:
     address: 'F.M. Ferretti Street'
-    postalCode: ""
+    postalCode: null
     city: Birżebbuġa
     countryCode: MT
-    region: ""
+    region: null
   profiles:
     -
       network: Github
@@ -19,11 +19,11 @@ basics:
     -
       network: LinkedIn
       username: jeanfarrugia
-      url: 'https://www.linkedin.com/in/jeanfarrugia'
+      url: 'https://linkedin.com/in/jeanfarrugia'
     -
       network: 'Stack Overflow'
       username: jeanfrg
-      url: 'https://stackoverflow.com/users/2889498/jeanfrg'
+      url: 'https://stackoverflow.com/users/2889498'
 work:
   -
     company: 'Gaming Innovation Group'
