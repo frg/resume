@@ -3,7 +3,7 @@
   "info": {
     "label": "Senior Software Engineer",
     "image": "",
-    "brief": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template."
+    "brief": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template."
   },
   "contact": {
     "email": "jeanfrg@gmail.com",
@@ -12,7 +12,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-14T08:39:02.901Z"
+    "modified": "2018-03-14T15:24:27.351Z"
   },
   "location": {
     "city": "Birżebbuġa",
@@ -75,8 +75,8 @@
       },
       {
         "position": "Software Developer (acting Lead)",
-        "employer": "ICT2biz Ltd.",
-        "summary": "i2b studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.",
+        "employer": "i2b Studio",
+        "summary": "i2b Studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.",
         "start": "2014-04-01",
         "end": "2015-02-01",
         "url": "https://i2b.studio",
