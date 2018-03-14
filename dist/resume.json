@@ -2,6 +2,7 @@
   "name": "Jean Farrugia",
   "info": {
     "label": "Senior Software Engineer",
+    "image": "",
     "brief": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template."
   },
   "contact": {
@@ -11,13 +12,13 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-13T21:15:09.408Z"
+    "modified": "2018-03-14T07:57:37.667Z"
   },
   "location": {
     "city": "Birżebbuġa",
-    "region": null,
+    "region": "",
     "country": "MT",
-    "code": null,
+    "code": "",
     "address": "F.M. Ferretti Street"
   },
   "employment": {
@@ -70,11 +71,11 @@
         "url": "https://i2b.studio",
         "keywords": [],
         "highlights": [
-          "Project Managment",
+          "Project Management",
           "Website Development",
-          "Mobile Application Development",
-          "Augmented Reality Mobile Applications",
-          "Architecture Design (for small projects)"
+          "Mobile Application Development using Cordova w/ AngularJS",
+          "Augmented Reality Mobile Applications aided by the Vuforia Framework",
+          "Architecture Design for small projects"
         ]
       }
     ]
@@ -118,11 +119,11 @@
         "name": "Back End Development",
         "level": "Advanced",
         "skills": [
+          "C#",
           ".NET Core",
           "RabbitMQ",
           "SQL",
           "Redis",
-          "C#",
           "Node.js"
         ]
       }
@@ -157,7 +158,16 @@
       "user": "jeanfrg"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Camping",
+        "Hiking",
+        "Road Running"
+      ]
+    }
+  ],
   "testimonials": [
     {
       "name": "Julian Camilleri",

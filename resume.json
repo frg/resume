@@ -2,16 +2,17 @@
   "basics": {
     "name": "Jean Farrugia",
     "label": "Senior Software Engineer",
+    "picture": "",
     "email": "jeanfrg@gmail.com",
     "phone": "(356) 79333016",
     "website": "https://jf.mt",
     "summary": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.",
     "location": {
       "address": "F.M. Ferretti Street",
-      "postalCode": null,
+      "postalCode": "",
       "city": "Birżebbuġa",
       "countryCode": "MT",
-      "region": null
+      "region": ""
     },
     "profiles": [
       {
@@ -75,11 +76,11 @@
       "endDate": "2015-02-01",
       "summary": "i2b studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.",
       "highlights": [
-        "Project Managment",
+        "Project Management",
         "Website Development",
-        "Mobile Application Development",
-        "Augmented Reality Mobile Applications",
-        "Architecture Design (for small projects)"
+        "Mobile Application Development using Cordova w/ AngularJS",
+        "Augmented Reality Mobile Applications aided by the Vuforia Framework",
+        "Architecture Design for small projects"
       ]
     }
   ],
@@ -126,11 +127,11 @@
       "name": "Back End Development",
       "level": "Advanced",
       "keywords": [
+        "C#",
         ".NET Core",
         "RabbitMQ",
         "SQL",
         "Redis",
-        "C#",
         "Node.js"
       ]
     }
@@ -145,7 +146,16 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Camping",
+        "Hiking",
+        "Road Running"
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Julian Camilleri",
