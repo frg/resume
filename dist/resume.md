@@ -4,7 +4,7 @@ Email: jeanfrg@gmail.com
 Tel: ***REMOVED***
 Web: https://jf.mt
 
-Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.
+Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.
 
 ## SKILLS
 
@@ -38,9 +38,9 @@ Guts.com offers sports betting, poker and a huge collection of casino games from
   - Maintaining & Implementing new features including Registration, Tracking etc.
   - Creating responsive promotional pages that aim to be fun & engaging
 
-### *Software Developer (acting Lead)*, [ICT2biz Ltd.](https://i2b.studio) (2014-04 — 2015-02)
+### *Software Developer (acting Lead)*, [i2b Studio](https://i2b.studio) (2014-04 — 2015-02)
 
-i2b studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.
+i2b Studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.
   - Project Management
   - Website Development
   - Mobile Application Development using Cordova w/ AngularJS

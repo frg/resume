@@ -5,7 +5,7 @@ basics:
   email: jeanfrg@gmail.com
   phone: '***REMOVED***'
   website: 'https://jf.mt'
-  summary: 'Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named ICT2Biz right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.'
+  summary: 'Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.'
   location:
     address: 'F.M. Ferretti Street'
     postalCode: ""
@@ -65,12 +65,12 @@ work:
       - 'Maintaining & Implementing new features including Registration, Tracking etc.'
       - 'Creating responsive promotional pages that aim to be fun & engaging'
   -
-    company: 'ICT2biz Ltd.'
+    company: 'i2b Studio'
     position: 'Software Developer (acting Lead)'
     website: 'https://i2b.studio'
     startDate: '2014-04-01'
     endDate: '2015-02-01'
-    summary: 'i2b studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.'
+    summary: 'i2b Studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.'
     highlights:
       - 'Project Management'
       - 'Website Development'
@@ -100,6 +100,36 @@ awards:
     awarder: 'NCC Education'
     summary: ""
 publications: []
+projects:
+  -
+    name: 'E-Book store / E-Reader (iOS / Windows Phone 8 / Windows 8)'
+    category: commercial
+    roles: co-creator
+    url: ""
+    startDate: '2014-10-01'
+    endDate: '2015-02-01'
+    repo: ""
+    summary: 'A combination of an E-Book store and an E-Reader with the focus of offline IP security and UX.'
+    keywords:
+      - E-Reader
+      - AngularJS
+      - Cordova
+      - Security
+      - Mobile
+  -
+    name: 'Augmented Reality Tourism Android App'
+    category: commercial
+    roles: creator
+    url: ""
+    startDate: '2014-04-01'
+    endDate: '2015-05-01'
+    repo: ""
+    summary: 'An Augmented Reality Tourism App aimed at providing museum and points of interest information through an interactive manner.'
+    keywords:
+      - Vuforia
+      - Mobile
+      - Tourism
+      - AR
 skills:
   -
     name: 'Front End Development'
