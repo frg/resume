@@ -34,6 +34,15 @@
   },
   "work": [
     {
+      "company": "ICE Malta",
+      "position": "Educator",
+      "website": "https://icemalta.com/",
+      "startDate": "2018-03-02",
+      "endDate": "",
+      "summary": "A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.",
+      "highlights": []
+    },
+    {
       "company": "Gaming Innovation Group",
       "position": "Senior Software Engineer",
       "website": "https://gig.com",
