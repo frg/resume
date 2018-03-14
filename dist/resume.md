@@ -13,6 +13,10 @@ Born and bred on the island of Malta, Jean has earned a degree with honors from 
 
 ## EMPLOYMENT
 
+### *Educator*, [ICE Malta](https://icemalta.com/) (2018-03 — Present)
+
+A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.
+
 ### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2017-03 — Present)
 
 Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.
