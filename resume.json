@@ -129,7 +129,10 @@
         "HTML / CSS",
         "Javascript ES6",
         "React",
-        "AngularJS (v1)"
+        "AngularJS (v1)",
+        "SASS",
+        "Redux, Event Emitters",
+        "RxJS"
       ]
     },
     {
@@ -141,7 +144,34 @@
         "RabbitMQ",
         "SQL",
         "Redis",
-        "Node.js"
+        "Node.js",
+        "ElasticSearch"
+      ]
+    },
+    {
+      "name": "Tooling",
+      "level": "Intermediate",
+      "keywords": [
+        "Babel",
+        "Webpack",
+        "Gulp",
+        "Git"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "Intermediate",
+      "keywords": [
+        "XUnit",
+        "Nightwatch"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "level": "Intermediate",
+      "keywords": [
+        "Kibana",
+        "Sentry.io"
       ]
     }
   ],

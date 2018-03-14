@@ -12,7 +12,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-14T08:17:25.813Z"
+    "modified": "2018-03-14T08:39:02.901Z"
   },
   "location": {
     "city": "Birżebbuġa",
@@ -123,7 +123,10 @@
           "HTML / CSS",
           "Javascript ES6",
           "React",
-          "AngularJS (v1)"
+          "AngularJS (v1)",
+          "SASS",
+          "Redux, Event Emitters",
+          "RxJS"
         ]
       },
       {
@@ -135,7 +138,34 @@
           "RabbitMQ",
           "SQL",
           "Redis",
-          "Node.js"
+          "Node.js",
+          "ElasticSearch"
+        ]
+      },
+      {
+        "name": "Tooling",
+        "level": "Intermediate",
+        "skills": [
+          "Babel",
+          "Webpack",
+          "Gulp",
+          "Git"
+        ]
+      },
+      {
+        "name": "Testing",
+        "level": "Intermediate",
+        "skills": [
+          "XUnit",
+          "Nightwatch"
+        ]
+      },
+      {
+        "name": "Monitoring",
+        "level": "Intermediate",
+        "skills": [
+          "Kibana",
+          "Sentry.io"
         ]
       }
     ]

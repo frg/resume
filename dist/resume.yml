@@ -109,6 +109,9 @@ skills:
       - 'Javascript ES6'
       - React
       - 'AngularJS (v1)'
+      - SASS
+      - 'Redux, Event Emitters'
+      - RxJS
   -
     name: 'Back End Development'
     level: Advanced
@@ -119,6 +122,27 @@ skills:
       - SQL
       - Redis
       - Node.js
+      - ElasticSearch
+  -
+    name: Tooling
+    level: Intermediate
+    keywords:
+      - Babel
+      - Webpack
+      - Gulp
+      - Git
+  -
+    name: Testing
+    level: Intermediate
+    keywords:
+      - XUnit
+      - Nightwatch
+  -
+    name: Monitoring
+    level: Intermediate
+    keywords:
+      - Kibana
+      - Sentry.io
 languages:
   -
     language: English

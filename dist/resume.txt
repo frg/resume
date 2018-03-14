@@ -10,8 +10,11 @@ Born and bred on the island of Malta, Jean has earned a degree with honors from 
 
 SKILLS -------------------------------------------------------------------------
 
-- Front End Development: HTML / CSS Javascript ES6 React AngularJS (v1) 
-- Back End Development: C# .NET Core RabbitMQ SQL Redis Node.js 
+- Front End Development: HTML / CSS Javascript ES6 React AngularJS (v1) SASS Redux, Event Emitters RxJS 
+- Back End Development: C# .NET Core RabbitMQ SQL Redis Node.js ElasticSearch 
+- Tooling: Babel Webpack Gulp Git 
+- Testing: XUnit Nightwatch 
+- Monitoring: Kibana Sentry.io 
 
 
 EMPLOYMENT ---------------------------------------------------------------------
