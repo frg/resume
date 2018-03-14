@@ -12,7 +12,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-14T07:57:37.667Z"
+    "modified": "2018-03-14T08:11:52.922Z"
   },
   "location": {
     "city": "Birżebbuġa",
@@ -23,6 +23,17 @@
   },
   "employment": {
     "history": [
+      {
+        "position": "Educator",
+        "employer": "ICE Malta",
+        "summary": "A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.",
+        "current": true,
+        "start": "2018-03-02",
+        "end": "",
+        "url": "https://icemalta.com/",
+        "keywords": [],
+        "highlights": []
+      },
       {
         "position": "Senior Software Engineer",
         "employer": "Gaming Innovation Group",
