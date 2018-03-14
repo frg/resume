@@ -9,7 +9,7 @@ Born and bred on the island of Malta, Jean has earned a degree with honors from 
 ## SKILLS
 
   - Front End Development: HTML / CSS Javascript ES6 React AngularJS (v1) 
-  - Back End Development: .NET Core RabbitMQ SQL Redis C# Node.js 
+  - Back End Development: C# .NET Core RabbitMQ SQL Redis Node.js 
 
 ## EMPLOYMENT
 
@@ -34,11 +34,11 @@ Guts.com offers sports betting, poker and a huge collection of casino games from
 ### *Software Developer (acting Lead)*, [ICT2biz Ltd.](https://i2b.studio) (2014-04 — 2015-02)
 
 i2b studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.
-  - Project Managment
+  - Project Management
   - Website Development
-  - Mobile Application Development
-  - Augmented Reality Mobile Applications
-  - Architecture Design (for small projects)
+  - Mobile Application Development using Cordova w/ AngularJS
+  - Augmented Reality Mobile Applications aided by the Vuforia Framework
+  - Architecture Design for small projects
 
 
 
@@ -61,5 +61,10 @@ i2b studio is one of the youngest and freshest business solutions companies arou
 
 
 
+
+
+## INTERESTS
+
+- OUTDOORS: Camping Hiking Road Running 
 
 
