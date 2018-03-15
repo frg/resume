@@ -1,3 +1,7 @@
+meta:
+  canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
+  version: v1.0.0
+  lastModified: '2018-03-15T09:49:16.238Z'
 basics:
   name: 'Jean Farrugia'
   label: 'Senior Software Engineer'
@@ -104,32 +108,53 @@ projects:
   -
     name: 'E-Book store / E-Reader (iOS / Windows Phone 8 / Windows 8)'
     category: commercial
-    roles: co-creator
+    roles:
+      - Co-Creator
     url: ""
     startDate: '2014-10-01'
     endDate: '2015-02-01'
-    repo: ""
-    summary: 'A combination of an E-Book store and an E-Reader with the focus of offline IP security and UX.'
+    description: 'A combination of an E-Book store and an E-Reader with the focus of offline IP security and UX.'
     keywords:
       - E-Reader
       - AngularJS
       - Cordova
       - Security
       - Mobile
+    entity: 'i2b Studio'
+    type: application
   -
     name: 'Augmented Reality Tourism Android App'
     category: commercial
-    roles: creator
+    roles:
+      - 'Team lead'
+      - Creator
     url: ""
     startDate: '2014-04-01'
     endDate: '2015-05-01'
-    repo: ""
-    summary: 'An Augmented Reality Tourism App aimed at providing museum and points of interest information through an interactive manner.'
+    description: 'An Augmented Reality Tourism App aimed at providing museum and points of interest information through an interactive manner.'
     keywords:
       - Vuforia
       - Mobile
       - Tourism
       - AR
+    type: application
+  -
+    name: 'Rules Engine'
+    description: 'Config driven Rules Engine driven by the ingress of messages and egress to multiple sources (API, WebSockets, File, ElasticSearch, etc.)'
+    highlights:
+      - 'Launch of 11.lv Gamification Layer'
+      - '1 node capable of an ingress of 1k messages / s with a typical gamification ruleset (subjective)'
+    keywords:
+      - RabbitMQ
+      - 'Message Consumer'
+      - 'Rules Engine'
+    startDate: '2016-06-01'
+    endDate: '2016-08-01'
+    url: ""
+    roles:
+      - Lead
+    entity: 'Gaming Innovation Group'
+    type: application
 skills:
   -
     name: 'Front End Development'
