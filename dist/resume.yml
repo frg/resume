@@ -1,7 +1,6 @@
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
   version: v1.0.0
-  lastModified: '2018-03-15T09:49:16.238Z'
 basics:
   name: 'Jean Farrugia'
   label: 'Senior Software Engineer'
