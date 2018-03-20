@@ -13,7 +13,7 @@
   "meta": {
     "version": "v1.0.0",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-03-15T13:59:35.434Z",
+    "modified": "2018-03-20T07:54:32.156Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -46,7 +46,7 @@
         "url": "https://gig.com",
         "keywords": [],
         "highlights": [
-          "Planning & Development of multiple Casino & Sports brands looking to integrate with the iGaming Cloud platform",
+          "Planning & Development of multiple Casino & Sports brands looking to integrate with the GiG Core Platform",
           "Development of multiple common Libraries & SDK's (GiG Core Platform, Telesign, etc.)",
           "Horizontally scalable, config defined Rules Engine, driven by the ingress of messages (File, RabbitMQ, etc.) w/ multiple egress options (APIs, Web Sockets, File, etc.)",
           "Review & Interview candidates for various Software Development roles"
