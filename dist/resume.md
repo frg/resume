@@ -8,8 +8,8 @@ Born and bred on the island of Malta, Jean has earned a degree with honors from 
 
 ## SKILLS
 
-  - Front End Development: HTML / CSS Javascript ES6 React AngularJS (v1) SASS Redux, Event Emitters RxJS 
-  - Back End Development: C# .NET Core RabbitMQ SQL Redis Node.js ElasticSearch 
+  - Front End Development: HTML / CSS Javascript ES6 Vue.js React AngularJS (v1) SASS Redux, Event Emitters RxJS 
+  - Back End Development: C# .NET Core Golang RabbitMQ SQL Redis Node.js ElasticSearch 
   - Tooling: Babel Webpack Gulp Git 
   - Testing: XUnit Nightwatch 
   - Monitoring: Kibana Sentry.io 
@@ -20,7 +20,21 @@ Born and bred on the island of Malta, Jean has earned a degree with honors from 
 
 A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.
 
-### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2017-03 — Present)
+### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2018-10 — Present)
+
+Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.
+  - Planning & Development on the GiG Pay project
+  - Overseeing releases for the Swedish Regulation launch
+  - Work on the Over-The-Counter integration for Hard Rock Casino
+
+### *Senior Software Engineer*, [FASTTRACK Solutions](https://www.fasttrack-solutions.com/) (2018-07 — 2018-10)
+
+Gaming technology & service provider that specialises in providing anyone looking to build an online casino with a ready-for-operation casino site.
+  - Architecture for a new abstracted CRM Integration Flow
+  - Development for new integrations
+  - Improving the existing UX for the FASTTRACK CRM Backoffice
+
+### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2017-03 — 2018-07)
 
 Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.
   - Planning & Development of multiple Casino & Sports brands looking to integrate with the GiG Core Platform
