@@ -10,11 +10,11 @@
     "email": "jeanfrg@gmail.com",
     "phone": "***REMOVED***",
     "website": "https://jf.mt",
-    "summary": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.",
+    "summary": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts for various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from a chess desktop application that detects & analyses the chessboard using OpenCV & Stockfish to programatically ensuring that a grocery delivery slot is booked at the height of Covid19.",
     "location": {
-      "address": "F.M. Ferretti Street",
+      "address": "",
       "postalCode": "",
-      "city": "Birżebbuġa",
+      "city": "H'Attard",
       "countryCode": "MT",
       "region": ""
     },
@@ -50,8 +50,9 @@
         "Work closely with the product owner and tech lead to prioritize and come up with specifications",
         "Ensure that team and personal objectives are set and achieved",
         "Responsible for Day-to-Day performance management including leave, recruitment, salary, team personal development together with Head of Software development",
-        "Provide feedback to team member on regular basis",
-        "Identify problem areas and available training"
+        "Provide feedback to team members on regular basis",
+        "Identify problem areas and available training",
+        "Participates within the recruitment process"
       ]
     },
     {
@@ -59,39 +60,30 @@
       "position": "Educator",
       "website": "https://icemalta.com/",
       "startDate": "2018-03-02",
-      "endDate": "",
+      "endDate": "2019-03-02",
       "summary": "A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.",
       "highlights": []
     },
     {
       "company": "Gaming Innovation Group",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer (Platform Development)",
       "website": "https://gig.com",
-      "startDate": "2018-10-16",
-      "endDate": "2019-03-15",
+      "startDate": "2018-07-04",
+      "endDate": "",
       "summary": "Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.",
       "highlights": [
-        "Planning & Development on the GiG Pay project",
+        "Planning & Development on a payment gateway",
         "Overseeing releases for the Swedish Regulation launch",
-        "Work on the Over-The-Counter integration for Hard Rock Casino"
-      ]
-    },
-    {
-      "company": "FASTTRACK Solutions",
-      "position": "Senior Software Engineer",
-      "website": "https://www.fasttrack-solutions.com/",
-      "startDate": "2018-07-02",
-      "endDate": "2018-10-15",
-      "summary": "Gaming technology & service provider that specialises in providing anyone looking to build an online casino with a ready-for-operation casino site.",
-      "highlights": [
-        "Architecture for a new abstracted CRM Integration Flow",
-        "Development for new integrations",
-        "Improving the existing UX for the FASTTRACK CRM Backoffice"
+        "Work on the Over-The-Counter integration for Hard Rock Casino",
+        "Contribution towards improvements within support processes",
+        "Mentoring & Onboarding new recruits on the codebase",
+        "Takes initiative to elimate technical debt and elimating the reliance on a monolith system",
+        "Architecture & Development of a service that transforms & enhances RabbitMQ messages while being horizontally scalable & performant"
       ]
     },
     {
       "company": "Gaming Innovation Group",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer (Brand Development)",
       "website": "https://gig.com",
       "startDate": "2017-03-01",
       "endDate": "2018-07-04",
@@ -113,7 +105,7 @@
       "highlights": []
     },
     {
-      "company": "Guts Gaming Limited",
+      "company": "Guts Gaming Limited (GiG Group)",
       "position": "Web Developer",
       "website": "https://guts.com",
       "startDate": "2015-03-2",
@@ -260,12 +252,19 @@
       ]
     },
     {
+      "name": "CI/CD",
+      "level": "Intermediate",
+      "keywords": [
+        "TeamCity",
+        "Octopus Deploy"
+      ]
+    },
+    {
       "name": "Tooling",
       "level": "Intermediate",
       "keywords": [
         "Babel",
         "Webpack",
-        "Gulp",
         "Git"
       ]
     },
@@ -274,7 +273,7 @@
       "level": "Intermediate",
       "keywords": [
         "XUnit",
-        "Nightwatch"
+        "NUnit"
       ]
     },
     {

@@ -742,6 +742,65 @@
               <w:b/>
               <w:caps/>
             </w:rPr>
+            <w:t>CI/CD</w:t>
+          </w:r>
+        </w:p>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>TeamCity  Octopus Deploy</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:trPr>
+        <w:trHeight w:val="882"/>
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="828" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#F1C40F"  strokeweight="0"/>
+            </w:pict>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:16pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
+            </w:pict>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:spacing w:before="120"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="24"/>
+              <w:b/>
+              <w:caps/>
+            </w:rPr>
             <w:t>Tooling</w:t>
           </w:r>
         </w:p>
@@ -751,7 +810,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Babel  Webpack  Gulp  Git</w:t>
+            <w:t>Babel  Webpack  Git</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -810,7 +869,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>XUnit  Nightwatch</w:t>
+            <w:t>XUnit  NUnit</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -1054,7 +1113,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Provide feedback to team member on regular basis</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Provide feedback to team members on regular basis</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1070,6 +1129,21 @@
         </w:rPr>
       </w:pPr>
       <w:r><w:rPr></w:rPr><w:t>Identify problem areas and available training</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Participates within the recruitment process</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1101,7 +1175,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Mar 2018 — Present</w:t>
+        <w:t>Mar 2018 — Mar 2019</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -1126,7 +1200,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Senior Software Engineer, </w:t>
+        <w:t>Senior Software Engineer (Platform Development), </w:t>
       </w:r>
       <w:hlink w:dest="https://gig.com">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1143,7 +1217,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Oct 2018 — Mar 2019</w:t>
+        <w:t>Jul 2018 — Present</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -1168,7 +1242,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Planning &amp;amp; Development on the GiG Pay project</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Planning &amp;amp; Development on a payment gateway</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1200,48 +1274,6 @@
       </w:pPr>
       <w:r><w:rPr></w:rPr><w:t>Work on the Over-The-Counter integration for Hard Rock Casino</w:t></w:r>
     </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Senior Software Engineer, </w:t>
-      </w:r>
-      <w:hlink w:dest="https://www.fasttrack-solutions.com/">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>FASTTRACK Solutions</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>Jul 2018 — Oct 2018</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Gaming technology &amp;amp; service provider that specialises in providing anyone looking to build an online casino with a ready-for-operation casino site.</w:t></w:r>
-    </w:p>
-
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
         <w:pStyle w:val="ListParagraph"/>
@@ -1255,7 +1287,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Architecture for a new abstracted CRM Integration Flow</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Contribution towards improvements within support processes</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1270,7 +1302,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Development for new integrations</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Mentoring &amp;amp; Onboarding new recruits on the codebase</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1285,7 +1317,22 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Improving the existing UX for the FASTTRACK CRM Backoffice</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Takes initiative to elimate technical debt and elimating the reliance on a monolith system</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Architecture &amp;amp; Development of a service that transforms &amp;amp; enhances RabbitMQ messages while being horizontally scalable &amp;amp; performant</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1300,7 +1347,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Senior Software Engineer, </w:t>
+        <w:t>Senior Software Engineer (Brand Development), </w:t>
       </w:r>
       <w:hlink w:dest="https://gig.com">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1451,7 +1498,7 @@
           <w:rPr>
             <w:rStyle w:val="Hyperlink"/>
           </w:rPr>
-          <w:t>Guts Gaming Limited</w:t>
+          <w:t>Guts Gaming Limited (GiG Group)</w:t>
         </w:r>
       </w:hlink>
       <w:r wsp:rsidR="00EA0B64">

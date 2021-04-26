@@ -4,14 +4,15 @@ Email: jeanfrg@gmail.com
 Tel: ***REMOVED***
 Web: https://jf.mt
 
-Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts into various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from bodging libraries together, to creating the ever so distant -- perfect project template.
+Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts for various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from a chess desktop application that detects & analyses the chessboard using OpenCV & Stockfish to programatically ensuring that a grocery delivery slot is booked at the height of Covid19.
 
 ## SKILLS
 
   - Front End Development: HTML / CSS Javascript ES6 Vue.js React AngularJS (v1) SASS Redux, Event Emitters RxJS 
   - Back End Development: C# .NET Core Golang RabbitMQ SQL Redis Node.js ElasticSearch 
-  - Tooling: Babel Webpack Gulp Git 
-  - Testing: XUnit Nightwatch 
+  - CI/CD: TeamCity Octopus Deploy 
+  - Tooling: Babel Webpack Git 
+  - Testing: XUnit NUnit 
   - Monitoring: Kibana Sentry.io 
 
 ## EMPLOYMENT
@@ -24,28 +25,26 @@ Gaming Innovation Group is a rapidly growing technology business. The Group offe
   - Work closely with the product owner and tech lead to prioritize and come up with specifications
   - Ensure that team and personal objectives are set and achieved
   - Responsible for Day-to-Day performance management including leave, recruitment, salary, team personal development together with Head of Software development
-  - Provide feedback to team member on regular basis
+  - Provide feedback to team members on regular basis
   - Identify problem areas and available training
+  - Participates within the recruitment process
 
-### *Educator*, [ICE Malta](https://icemalta.com/) (2018-03 — Present)
+### *Educator*, [ICE Malta](https://icemalta.com/) (2018-03 — 2019-03)
 
 A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.
 
-### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2018-10 — 2019-03)
+### *Senior Software Engineer (Platform Development)*, [Gaming Innovation Group](https://gig.com) (2018-07 — Present)
 
 Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.
-  - Planning & Development on the GiG Pay project
+  - Planning & Development on a payment gateway
   - Overseeing releases for the Swedish Regulation launch
   - Work on the Over-The-Counter integration for Hard Rock Casino
+  - Contribution towards improvements within support processes
+  - Mentoring & Onboarding new recruits on the codebase
+  - Takes initiative to elimate technical debt and elimating the reliance on a monolith system
+  - Architecture & Development of a service that transforms & enhances RabbitMQ messages while being horizontally scalable & performant
 
-### *Senior Software Engineer*, [FASTTRACK Solutions](https://www.fasttrack-solutions.com/) (2018-07 — 2018-10)
-
-Gaming technology & service provider that specialises in providing anyone looking to build an online casino with a ready-for-operation casino site.
-  - Architecture for a new abstracted CRM Integration Flow
-  - Development for new integrations
-  - Improving the existing UX for the FASTTRACK CRM Backoffice
-
-### *Senior Software Engineer*, [Gaming Innovation Group](https://gig.com) (2017-03 — 2018-07)
+### *Senior Software Engineer (Brand Development)*, [Gaming Innovation Group](https://gig.com) (2017-03 — 2018-07)
 
 Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.
   - Planning & Development of multiple Casino & Sports brands looking to integrate with the GiG Core Platform
@@ -57,7 +56,7 @@ Gaming Innovation Group is a rapidly growing technology business. The Group offe
 
 
 
-### *Web Developer*, [Guts Gaming Limited](https://guts.com) (2015-03 — 2015-08)
+### *Web Developer*, [Guts Gaming Limited (GiG Group)](https://guts.com) (2015-03 — 2015-08)
 
 Guts.com offers sports betting, poker and a huge collection of casino games from providers such as NetEnt, Microgaming, Quickspin, Evolution, Betsoft, NYX, Thunderkick and more
   - Maintaining & Implementing new features including Registration, Tracking etc.
