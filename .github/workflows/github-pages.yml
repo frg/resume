@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - run: npm run test
+      - run: npm run generate
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
