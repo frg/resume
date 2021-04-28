@@ -9,12 +9,13 @@
     "resume-cli": "^3.0.4"
   },
   "devDependencies": {
+    "cpy-cli": "^3.1.1",
     "del-cli": "^3.0.1",
     "make-dir-cli": "^2.0.0"
   },
   "scripts": {
     "generate": "make-dir publish && resume export ./publish/index.html --format html --theme jsonresume-theme-stackoverflow-FA5 && npm run ghpages",
-    "ghpages": "node gainject.js",
+    "ghpages": "node gainject.js && cpy favicon.ico publish",
     "clean": "del-cli publish --force",
     "test": "resume validate resume.json"
   },
