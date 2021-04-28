@@ -3,7 +3,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 
 const gaFilePath = path.join(__dirname, 'ga.html');
-const indexFilePath = path.join(__dirname, 'index.html');
+const indexFilePath = path.join(__dirname, 'publish', 'index.html');
 let $;
 
 readFile(indexFilePath)

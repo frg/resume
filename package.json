@@ -9,14 +9,13 @@
     "resume-cli": "^3.0.4"
   },
   "devDependencies": {
-    "copyfiles": "^2.4.1",
     "del-cli": "^3.0.1",
-    "rename-cli": "^6.2.1"
+    "make-dir-cli": "^2.0.0"
   },
   "scripts": {
-    "generate": "resume export ./build/resume.html --format html --theme jsonresume-theme-stackoverflow-FA5 && npm run ghpages && node gainject.js",
-    "ghpages": "copyfiles -f \"./build/resume.html\" ./ && npm run clean-ghpages && rename resume.html index.html",
-    "clean-ghpages": "del -f index.html || del -f index.html",
+    "generate": "make-dir publish && resume export ./publish/index.html --format html --theme jsonresume-theme-stackoverflow-FA5 && npm run ghpages",
+    "ghpages": "node gainject.js",
+    "clean": "del-cli publish --force",
     "test": "resume validate resume.json"
   },
   "keywords": [
