@@ -1,14 +1,15 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0"
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
   },
   "basics": {
     "name": "Jean Farrugia",
     "label": "Senior Software Engineer",
     "picture": "",
     "email": "jeanfrg@gmail.com",
-    "phone": "***REMOVED***",
     "website": "https://jf.mt",
     "summary": "Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts for various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from a chess desktop application that detects & analyses the chessboard using OpenCV & Stockfish to programatically ensuring that a grocery delivery slot is booked at the height of Covid19.",
     "location": {
@@ -38,12 +39,13 @@
   },
   "work": [
     {
-      "company": "Gaming Innovation Group",
+      "name": "Gaming Innovation Group",
+      "location": "St. Julian's, Malta",
+      "description": "",
       "position": "Team Lead",
-      "website": "https://gig.com",
+      "url": "https://gig.com",
       "startDate": "2019-03-15",
-      "endDate": "",
-      "summary": "Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.",
+      "summary": "GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.",
       "highlights": [
         "Ensure targets/deadlines are met",
         "Shield the team from external disruptions",
@@ -56,21 +58,13 @@
       ]
     },
     {
-      "company": "ICE Malta",
-      "position": "Educator",
-      "website": "https://icemalta.com/",
-      "startDate": "2018-03-02",
-      "endDate": "2019-03-02",
-      "summary": "A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.",
-      "highlights": []
-    },
-    {
-      "company": "Gaming Innovation Group",
+      "name": "Gaming Innovation Group",
+      "location": "St. Julian's, Malta",
+      "description": "",
       "position": "Senior Software Engineer (Platform Development)",
-      "website": "https://gig.com",
+      "url": "https://gig.com",
       "startDate": "2018-07-04",
-      "endDate": "",
-      "summary": "Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.",
+      "summary": "GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.",
       "highlights": [
         "Planning & Development on a payment gateway",
         "Overseeing releases for the Swedish Regulation launch",
@@ -82,12 +76,25 @@
       ]
     },
     {
-      "company": "Gaming Innovation Group",
+      "name": "ICE Malta",
+      "location": "Zebbuġ, Malta",
+      "description": "",
+      "position": "Educator",
+      "url": "https://icemalta.com/",
+      "startDate": "2018-03-02",
+      "endDate": "2019-03-02",
+      "summary": "A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.",
+      "highlights": []
+    },
+    {
+      "name": "Gaming Innovation Group",
+      "location": "St. Julian's, Malta",
+      "description": "",
       "position": "Senior Software Engineer (Brand Development)",
-      "website": "https://gig.com",
-      "startDate": "2017-03-01",
+      "url": "https://gig.com",
+      "startDate": "2015-08-01",
       "endDate": "2018-07-04",
-      "summary": "Gaming Innovation Group is a rapidly growing technology business. The Group offers cutting-edge Cloud based services and Performance Marketing through its 3 B2B products. Owns 7 B2C gambling products, offering games from the best-of-breed suppliers across the online sports betting and casino industry.",
+      "summary": "GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.",
       "highlights": [
         "Planning & Development of multiple Casino & Sports brands looking to integrate with the GiG Core Platform",
         "Development of multiple common Libraries & SDK's (GiG Core Platform, Telesign, etc.)",
@@ -96,19 +103,12 @@
       ]
     },
     {
-      "company": "Gaming Innovation Group",
+      "name": "Guts Gaming Limited (GiG Group)",
+      "location": "Ta' Xbiex, Malta",
+      "description": "",
       "position": "Web Developer",
-      "website": "https://gig.com",
-      "startDate": "2015-07-01",
-      "endDate": "2017-03-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "company": "Guts Gaming Limited (GiG Group)",
-      "position": "Web Developer",
-      "website": "https://guts.com",
-      "startDate": "2015-03-2",
+      "url": "https://guts.com",
+      "startDate": "2015-03-02",
       "endDate": "2015-08-01",
       "summary": "Guts.com offers sports betting, poker and a huge collection of casino games from providers such as NetEnt, Microgaming, Quickspin, Evolution, Betsoft, NYX, Thunderkick and more",
       "highlights": [
@@ -117,9 +117,11 @@
       ]
     },
     {
-      "company": "i2b Studio",
-      "position": "Software Developer (acting Lead)",
-      "website": "https://i2b.studio",
+      "name": "i2b Studio",
+      "location": "Qormi, Malta",
+      "description": "",
+      "position": "Software Developer (Acting Lead)",
+      "url": "https://i2b.studio",
       "startDate": "2014-04-01",
       "endDate": "2015-02-01",
       "summary": "i2b Studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.",
@@ -136,6 +138,7 @@
   "education": [
     {
       "institution": "Middlesex University",
+      "url": "",
       "area": "Internet Application Development",
       "studyType": "Bachelor",
       "startDate": "2012-09-01",
@@ -162,15 +165,34 @@
   "publications": [],
   "projects": [
     {
+      "name": "Rules Engine",
+      "description": "Config driven Rules Engine driven by the ingress of messages and egress to multiple sources (API, WebSockets, File, ElasticSearch, etc.)",
+      "highlights": [
+        "Introduction of 11.lv's Gamification Layer",
+        "One node capable of an ingress of 1k messages / s with a typical gamification ruleset (subjective)"
+      ],
+      "keywords": [
+        "RabbitMQ",
+        "Message Consumer",
+        "Rules Engine"
+      ],
+      "startDate": "2016-06-01",
+      "endDate": "2016-08-01",
+      "url": "https://www.11.lv",
+      "roles": [
+        "Lead"
+      ],
+      "entity": "Gaming Innovation Group",
+      "type": "application"
+    },
+    {
       "name": "E-Book store / E-Reader (iOS / Windows Phone 8 / Windows 8)",
-      "category": "commercial",
       "roles": [
         "Co-Creator"
       ],
-      "url": "",
       "startDate": "2014-10-01",
       "endDate": "2015-02-01",
-      "description": "A combination of an E-Book store and an E-Reader with the focus of offline IP security and UX.",
+      "description": "A combination of an E-Book store and an E-Reader with a focus on offline intellectual security and user experience.",
       "keywords": [
         "E-Reader",
         "AngularJS",
@@ -182,13 +204,7 @@
       "type": "application"
     },
     {
-      "name": "Augmented Reality Tourism Android App",
-      "category": "commercial",
-      "roles": [
-        "Team lead",
-        "Creator"
-      ],
-      "url": "",
+      "name": "Augmented Reality Tourism Native Android App using Unity",
       "startDate": "2014-04-01",
       "endDate": "2015-05-01",
       "description": "An Augmented Reality Tourism App aimed at providing museum and points of interest information through an interactive manner.",
@@ -196,29 +212,13 @@
         "Vuforia",
         "Mobile",
         "Tourism",
-        "AR"
+        "Augmented Reality",
+        "Unity"
       ],
-      "type": "application"
-    },
-    {
-      "name": "Rules Engine",
-      "description": "Config driven Rules Engine driven by the ingress of messages and egress to multiple sources (API, WebSockets, File, ElasticSearch, etc.)",
-      "highlights": [
-        "Launch of 11.lv Gamification Layer",
-        "1 node capable of an ingress of 1k messages / s with a typical gamification ruleset (subjective)"
-      ],
-      "keywords": [
-        "RabbitMQ",
-        "Message Consumer",
-        "Rules Engine"
-      ],
-      "startDate": "2016-06-01",
-      "endDate": "2016-08-01",
-      "url": "",
       "roles": [
-        "Lead"
+        "Team lead",
+        "Creator"
       ],
-      "entity": "Gaming Innovation Group",
       "type": "application"
     }
   ],
@@ -229,11 +229,12 @@
       "keywords": [
         "HTML / CSS",
         "Javascript ES6",
-        "Vue.js",
+        "Vue.js (v2.5)",
         "React",
-        "AngularJS (v1)",
+        "AngularJS (v1.0)",
         "SASS",
-        "Redux, Event Emitters",
+        "Redux",
+        "Event Emitters",
         "RxJS"
       ]
     },
@@ -256,7 +257,8 @@
       "level": "Intermediate",
       "keywords": [
         "TeamCity",
-        "Octopus Deploy"
+        "Octopus Deploy",
+        "GitHub Actions"
       ]
     },
     {

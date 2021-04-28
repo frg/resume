@@ -1,448 +1,801 @@
-<!DOCTYPE html><html lang="en"><head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Jean Farrugia</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700" type="text/css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <style>
-            .clear-margin {
-          margin: 0;
-        }
-        .space-top {
-          margin-top: 10px;
-        }
-        .space-right {
-          margin-right: 10px;
-        }
-        .icon-left {
-          margin-right: 5px;
-        }
-        .icon-right {
-          margin-left: 5px;
-        }
-        .labels {
-          word-spacing: 5px;
-          line-height: 2;
-        }
-        .label-keyword {
-          display: inline-block;
-          background: #7eb0db;
-          color: white;
-          font-size: 0.9em;
-          padding: 5px;
-          border: 1px solid #357ebd;
-        }
-        .link-disguise {
-          color: inherit;
-        }
-        .link-disguise:hover {
-          color: inherit;
-        }
-        @media (max-width: 992px) {
-          .clear-margin-sm {
-            margin-bottom: 0;
-          }
-        }
-        body {
-          font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
-          background: #f0f0f0;
-          color: #333333;
-          font-size: 16px;
-        }
-        .text-bolder {
-          font-weight: bold;
-        }
-        @media only screen {
-          .container {
-            max-width: 50em;
-          }
-        }
-        @media (max-width: 480px) {
-          ul {
-            padding-left: 25px;
-          }
-          /*
-                .mobile-title {
-                    display: inline-block;
-                    margin-left: 5px;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    vertical-align: middle;
-                }
-        */
-          .background-details {
-            display: block;
-          }
-          .background-details .icon {
-            max-width: inherit;
-            min-width: inherit;
-            text-align: left;
-          }
-          .background-details .icon,
-          .background-details .info {
-            display: block;
-            padding: 10px 0;
-          }
-          .background-details .title {
-            display: none;
-          }
-          .card-nested {
-            padding: 5px 0;
-          }
-        }
-        .profile-card {
-          display: table;
-          width: 100%;
-        }
-        .profile-pic {
-          display: table-cell;
-          vertical-align: top;
-          padding: 1rem 4rem 0 0 ;
-        }
-        .profile-pic img {
-          width: 100px;
-          height: 100px;
-        }
-        .contact-details {
-          display: table-cell;
-        }
-        .contact-details .detail {
-          display: inline-block;
-          line-height: 2;
-          margin-right: 2rem;
-        }
-        .contact-details .detail .icon {
-          padding-right: 7px;
-          color: #888;
-        }
-        .contact-details .detail .info {
-          font-size: 0.8em;
-        }
-        .social-links {
-          line-height: 2.5;
-        }
-        .social-link {
-          display: block;
-        }
-        .social-link span {
-          display: inline-block;
-          vertical-align: middle;
-        }
-        .social-link:hover,
-        .social-link:focus {
-          text-decoration: none;
-        }
-        .social-link .fa {
-          text-align: center;
-          width: 2em;
-        }
-        .fa-github {
-          color: #454545;
-        }
-        .fa-github:hover,
-        .fa-github:focus {
-          text-decoration: none;
-          color: #2b2b2b;
-        }
-        .fa-twitter {
-          color: #33ccff;
-        }
-        .fa-twitter:hover,
-        .fa-twitter:focus {
-          text-decoration: none;
-          color: #00bfff;
-        }
-        .fa-rss {
-          color: #f36f24;
-        }
-        .fa-rss:hover,
-        .fa-rss:focus {
-          text-decoration: none;
-          color: #d8560c;
-        }
-        .fa-linkedin {
-          color: #007bb6;
-        }
-        .fa-linkedin:hover,
-        .fa-linkedin:focus {
-          text-decoration: none;
-          color: #005983;
-        }
-        .fa-skype {
-          color: #12a5f4;
-        }
-        .fa-skype:hover,
-        .fa-skype:focus {
-          text-decoration: none;
-          color: #0986ca;
-        }
-        .fa-stack-overflow {
-          color: #8e8e92;
-        }
-        .fa-stack-overflow:hover,
-        .fa-stack-overflow:focus {
-          text-decoration: none;
-          color: #747479;
-        }
-        .fa-soundcloud {
-          color: #e8822d;
-        }
-        .fa-soundcloud:hover,
-        .fa-soundcloud:focus {
-          text-decoration: none;
-          color: #cc6916;
-        }
-        .fa-pinterest {
-          color: #bd091f;
-        }
-        .fa-pinterest:hover,
-        .fa-pinterest:focus {
-          text-decoration: none;
-          color: #8c0717;
-        }
-        .fa-vimeo {
-          color: #17b3e8;
-        }
-        .fa-vimeo:hover,
-        .fa-vimeo:focus {
-          text-decoration: none;
-          color: #128fba;
-        }
-        .fa-behance {
-          color: #2c98cf;
-        }
-        .fa-behance:hover,
-        .fa-behance:focus {
-          text-decoration: none;
-          color: #2379a5;
-        }
-        .fa-codepen {
-          color: #1c1c1c;
-        }
-        .fa-codepen:hover,
-        .fa-codepen:focus {
-          text-decoration: none;
-          color: #020202;
-        }
-        .fa-foursquare {
-          color: #fa4778;
-        }
-        .fa-foursquare:hover,
-        .fa-foursquare:focus {
-          text-decoration: none;
-          color: #f91554;
-        }
-        .fa-reddit {
-          color: #545454;
-        }
-        .fa-reddit:hover,
-        .fa-reddit:focus {
-          text-decoration: none;
-          color: #3b3b3b;
-        }
-        .fa-spotify {
-          color: #acd200;
-        }
-        .fa-spotify:hover,
-        .fa-spotify:focus {
-          text-decoration: none;
-          color: #829f00;
-        }
-        .fa-dribbble {
-          color: #ce366f;
-        }
-        .fa-dribbble:hover,
-        .fa-dribbble:focus {
-          text-decoration: none;
-          color: #a82959;
-        }
-        .fa-facebook {
-          color: #4b6daa;
-        }
-        .fa-facebook:hover,
-        .fa-facebook:focus {
-          text-decoration: none;
-          color: #3b5687;
-        }
-        .fa-angellist {
-          color: #000000;
-        }
-        .fa-angellist:hover,
-        .fa-angellist:focus {
-          text-decoration: none;
-          color: #000000;
-        }
-        .fa-bitbucket {
-          color: #205081;
-        }
-        .fa-bitbucket:hover,
-        .fa-bitbucket:focus {
-          text-decoration: none;
-          color: #163758;
-        }
-        .fa-google-plus {
-          color: #bf2a1d;
-        }
-        .fa-google-plus:hover,
-        .fa-google-plus:focus {
-          text-decoration: none;
-          color: #932016;
-        }
-        .background-card h4 {
-          font-variant: small-caps;
-          color: #777777;
-          border-bottom: 1px solid #eeeeee;
-          padding-bottom: 1em;
-          margin-bottom: 1em;
-          line-height: 1.2;
-        }
-        .background-card h4:not(:first-child) {
-          margin-top: 2em;
-        }
-        h4 > .fa,
-        h4 > .title {
-          display: inline-block;
-          vertical-align: baseline;
-        }
-        h4 > .fa {
-          width: 4rem;
-        }
-        .content {
-          line-height: 1.5;
-        }
-        .card {
-          background: #ffffff;
-          border: 1px solid #e6e6e6;
-          border-radius: 3px;
-          padding: 2em 3.5em;
-        }
-        .card-nested {
-          padding: 1.5rem 0 1.5rem 4.2rem;
-        }
-        .card-wrapper {
-          padding: 5px;
-        }
-        .enumeration:not(:last-child):after {
-          content: ", ";
-        }
-        .enumeration:last-child:after {
-          content: ".";
-        }
-        @media only screen and (max-width: 768px) {
-          .profile-card {
-            display: block;
-          }
-          .contact-details,
-          .profile-pic {
-            display: block;
-            text-align: center;
-          }
-          .profile-pic {
-            padding: 0;
-          }
-          .card-nested {
-            padding-left: 0;
-          }
-          .card {
-            padding-left: 2em;
-            padding-right: 2em;
-            padding-bottom: 0;
-          }
-          .social-link .fa {
-            font-size: 1.2em;
-          }
-          .social-link span {
-            font-size: 0.8em;
-          }
-        }
-        @media only screen and (max-width: 480px) {
-          .contact-details .detail {
-            display: block;
-          }
-        }
-        .card-skills {
-          position: relative;
-        }
-        .skill-info {
-          margin-left: 20px;
-        }
-        @media only screen and (min-width: 768px) {
-          .skill {
-            border-left: 9px solid #555555;
-          }
-          .skill.beginner {
-            height: 50%;
-            border-color: #e74c3c;
-          }
-          .skill.intermediate {
-            height: 70%;
-            border-color: #f1c40f;
-          }
-          .skill.advanced {
-            border-color: #5cb85c;
-          }
-          .skill.master {
-            border-color: black;
-          }
-        }
-        @media (max-width: 768px) {
-          .quote {
-            font-size: inherit;
-          }
-        }
-        @media print {
-          body {
-            font-size: 10pt;
-          }
-          a[href]:after {
-            content: none !important;
-          }
-          .pagebreak {
-            page-break-before: always;
-          }
-          .background-card h4:not(:first-child) {
-            margin-top: 0 !important;
-          }
-          .card {
-            border: 0;
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-bottom: 0;
-          }
-          .container {
-            max-width: 100%;
-            width: 100%;
-          }
-          .contact-details .detail .icon {
-            color: #888 !important;
-          }
-          .background-card h4 {
-            padding-bottom: 0.5em;
-            margin-bottom: 0.5em;
-            margin-top: 1em !important;
-          }
-          h4 > .fa {
-            display: none !important;
-          }
-          .card-nested {
-            padding: .5rem 0 .5rem 0;
-          }
-          .label-keyword {
-            border-color: black;
-          }
-          .skill-info {
-            margin-left: 0;
-          }
-          blockquote {
-            font-size: 100%;
-          }
-        }
-        </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115819541-1"></script>
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Jean Farrugia</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+  -webkit-text-size-adjust: 100%;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  display: none;
+}
+
+.section > section > section {
+  margin-bottom: 0.5rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .toggle-item {
+    transform: translate(-9999px);
+  }
+  .toggle-item + label {
+    display: block;
+  }
+  .toggle-item:checked + label:after {
+    content: "\f0d7";
+  }
+  .toggle-item + label:after {
+    float: left;
+    cursor: pointer;
+    margin-left: -20px;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0da";
+  }
+  .toggle-item ~ .item {
+    height: 0;
+    opacity: 0;
+  }
+  .toggle-item:checked ~ .item {
+    height: auto;
+    opacity: 1;
+    transition: all 0.5s linear;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-115819541-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -450,429 +803,562 @@
 
   gtag('config', 'UA-115819541-1');
 </script></head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Jean Farrugia</h1>
+    			<h2 class="label">Senior Software Engineer</h2>
+    		</div>
     
-    <body itemscope="" itemtype="http://schema.org/Person">
-        <div class="container">
-            <section class="row">
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="profile-card">
-                            <div class="profile-pic">
-                                <img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Jean Farrugia" src="https://www.gravatar.com/avatar/009c46224c3733c1df5e36d6de710cfb?s=100&amp;r=pg&amp;d=mm" itemprop="image">
-                            </div>
-                            <div class="contact-details">
-                                <div class="name-and-profession">
-                                     <h3 class="text-bolder name" itemprop="name"> Jean Farrugia</h3>
-
-                                     <h5 class="text-muted" itemprop="jobTitle">Senior Software Engineer</h5>
-
-                                </div>
-                                <div class="detail"> <span class="icon">
-                        <i class="fa fa-lg fa-envelope"></i>
-                      </span>
- <span class="info">
-                        <a href="mailto:jeanfrg@gmail.com" class="link-disguise" itemprop="email">jeanfrg@gmail.com</a>
-                      </span>
-
-                                </div>
-                                <div class="detail"> <span class="icon">
-                        <i class="fa fa-lg fa-phone"></i>
-                      </span>
- <a href="tel://***REMOVED***" class="link-disguise info" itemprop="telephone">
-                        ***REMOVED***
-                      </a>
-
-                                </div>
-                                <div class="detail"> <span class="icon">
-                        <i class="fa fa-lg fa-map-marker"></i>
-                      </span>
- <span class="info">
-                          Bir&#x17C;ebbu&#x121;a, 
-                          MT
-                        </span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="social-links"> <a class="social-link" href="https://github.com/frg" target="_blank">
-                  <span class="fa fa-github fa-2x"></span> 
-                  <span class="social-link-text">https://github.com/frg</span>
-                </a>
- <a class="social-link" href="https://linkedin.com/in/jeanfarrugia" target="_blank">
-                  <span class="fa fa-linkedin fa-2x"></span> 
-                  <span class="social-link-text">https://linkedin.com/in/jeanfarrugia</span>
-                </a>
- <a class="social-link" href="https://stackoverflow.com/users/2889498" target="_blank">
-                  <span class="fa fa-stack-overflow fa-2x"></span> 
-                  <span class="social-link-text">https://stackoverflow.com/users/2889498</span>
-                </a>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="row">
-                <div class="card-wrapper">
-                    <div class="card background-card">
-                         <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
-
-                        <div class="card-nested" itemprop="description">
-                            <p>Born and bred on the island of Malta, Jean has earned a degree with honors
-                                from the University of Middlesex. Before his work in iGaming, he worked
-                                for a company named i2b Studio right out of University, where digitalizing
-                                Maltese Education was the name of the game. While his work currently focuses
-                                mainly on Web Development, occasionally he opts into various kinds of projects
-                                were getting shit done is the formula that reigns. His non-work interests
-                                still hail under the tech umbrella. Everything from bodging libraries together,
-                                to creating the ever so distant -- perfect project template.</p>
-                        </div>
-                         <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Team Lead</strong>, <a href="https://gig.com" target="_blank">Gaming Innovation Group</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Mar 2019 -  Present  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 2 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Gaming Innovation Group is a rapidly growing technology business. The
-                                        Group offers cutting-edge Cloud based services and Performance Marketing
-                                        through its 3 B2B products. Owns 7 B2C gambling products, offering games
-                                        from the best-of-breed suppliers across the online sports betting and casino
-                                        industry.</p>
-                                    <ul>
-                                        <li>Ensure targets/deadlines are met</li>
-                                        <li>Shield the team from external disruptions</li>
-                                        <li>Work closely with the product owner and tech lead to prioritize and come
-                                            up with specifications</li>
-                                        <li>Ensure that team and personal objectives are set and achieved</li>
-                                        <li>Responsible for Day-to-Day performance management including leave, recruitment,
-                                            salary, team personal development together with Head of Software development</li>
-                                        <li>Provide feedback to team member on regular basis</li>
-                                        <li>Identify problem areas and available training</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Senior Software Engineer</strong>, <a href="https://gig.com" target="_blank">Gaming Innovation Group</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Oct 2018 -  Mar 2019  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 4 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Gaming Innovation Group is a rapidly growing technology business. The
-                                        Group offers cutting-edge Cloud based services and Performance Marketing
-                                        through its 3 B2B products. Owns 7 B2C gambling products, offering games
-                                        from the best-of-breed suppliers across the online sports betting and casino
-                                        industry.</p>
-                                    <ul>
-                                        <li>Planning &amp; Development on the GiG Pay project</li>
-                                        <li>Overseeing releases for the Swedish Regulation launch</li>
-                                        <li>Work on the Over-The-Counter integration for Hard Rock Casino</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Senior Software Engineer</strong>, <a href="https://www.fasttrack-solutions.com/" target="_blank">FASTTRACK Solutions</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Jul 2018 -  Oct 2018  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 3 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Gaming technology &amp; service provider that specialises in providing
-                                        anyone looking to build an online casino with a ready-for-operation casino
-                                        site.</p>
-                                    <ul>
-                                        <li>Architecture for a new abstracted CRM Integration Flow</li>
-                                        <li>Development for new integrations</li>
-                                        <li>Improving the existing UX for the FASTTRACK CRM Backoffice</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Educator</strong>, <a href="https://icemalta.com/" target="_blank">ICE Malta</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Mar 2018 -  Present  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 2 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>A leading ICT Academy in the heart of Europe delivering worldwide recognized
-                                        certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk,
-                                        Cisco and Adobe amongst other prestigious names. The Institute is renowned
-                                        for the unique ISO 9001:2015 certified Study Experience.</p>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Senior Software Engineer</strong>, <a href="https://gig.com" target="_blank">Gaming Innovation Group</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Mar 2017 -  Jul 2018  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 4 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Gaming Innovation Group is a rapidly growing technology business. The
-                                        Group offers cutting-edge Cloud based services and Performance Marketing
-                                        through its 3 B2B products. Owns 7 B2C gambling products, offering games
-                                        from the best-of-breed suppliers across the online sports betting and casino
-                                        industry.</p>
-                                    <ul>
-                                        <li>Planning &amp; Development of multiple Casino &amp; Sports brands looking
-                                            to integrate with the GiG Core Platform</li>
-                                        <li>Development of multiple common Libraries &amp; SDK&apos;s (GiG Core Platform,
-                                            Telesign, etc.)</li>
-                                        <li>Horizontally scalable, config defined Rules Engine, driven by the ingress
-                                            of messages (File, RabbitMQ, etc.) w/ multiple egress options (APIs, Web
-                                            Sockets, File, etc.)</li>
-                                        <li>Review &amp; Interview candidates for various Software Development roles</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Web Developer</strong>, <a href="https://gig.com" target="_blank">Gaming Innovation Group</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Jul 2015 -  Mar 2017  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 8 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p></p>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Web Developer</strong>, <a href="https://guts.com" target="_blank">Guts Gaming Limited</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Mar 2015 -  Aug 2015  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 4 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Guts.com offers sports betting, poker and a huge collection of casino
-                                        games from providers such as NetEnt, Microgaming, Quickspin, Evolution,
-                                        Betsoft, NYX, Thunderkick and more</p>
-                                    <ul>
-                                        <li>Maintaining &amp; Implementing new features including Registration, Tracking
-                                            etc.</li>
-                                        <li>Creating responsive promotional pages that aim to be fun &amp; engaging</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Software Developer (acting Lead)</strong>, <a href="https://i2b.studio" target="_blank">i2b Studio</a>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Apr 2014 -  Feb 2015  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 10 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>i2b Studio is one of the youngest and freshest business solutions companies
-                                        around, offering an innovative and forward-looking approach to our all
-                                        of our clients&#x2019; business needs in terms of technological systems, online
-                                        presence and all types of marketing and branding.</p>
-                                    <ul>
-                                        <li>Project Management</li>
-                                        <li>Website Development</li>
-                                        <li>Mobile Application Development using Cordova w/ AngularJS</li>
-                                        <li>Augmented Reality Mobile Applications aided by the Vuforia Framework</li>
-                                        <li>Architecture Design for small projects</li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                         <h4 id="projects"> <span class="fa fa-lg fa-code-fork"></span> <span class="title">Projects</span> </h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm">E-Book store / E-Reader (iOS / Windows Phone 8 / Windows 8), <strong>Co-Creator</strong>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Oct 2014 -  Feb 2015  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 4 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>A combination of an E-Book store and an E-Reader with the focus of offline
-                                        IP security and UX.</p>
-                                    <div class="space-top labels"> <span class="label label-keyword">E-Reader</span>  <span class="label label-keyword">AngularJS</span> 
-                                        <span class="label label-keyword">Cordova</span> <span class="label label-keyword">Security</span>  <span class="label label-keyword">Mobile</span> 
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm">Augmented Reality Tourism Android App, <strong>Team lead</strong>, <strong>Creator</strong>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Apr 2014 -  May 2015  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year </span> 
-                      </small>
-
-                                    </p>
-                                    <p>An Augmented Reality Tourism App aimed at providing museum and points
-                                        of interest information through an interactive manner.</p>
-                                    <div class="space-top labels"> <span class="label label-keyword">Vuforia</span>  <span class="label label-keyword">Mobile</span> 
-                                        <span class="label label-keyword">Tourism</span> <span class="label label-keyword">AR</span> 
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm">Rules Engine, <strong>Lead</strong>
-
-                                    </p>
-                                    <p class="text-muted"> <small>
-                        <span class="space-right"> Jun 2016 -  Aug 2016  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 2 months </span> 
-                      </small>
-
-                                    </p>
-                                    <p>Config driven Rules Engine driven by the ingress of messages and egress
-                                        to multiple sources (API, WebSockets, File, ElasticSearch, etc.)</p>
-                                    <ul>
-                                        <li>Launch of 11.lv Gamification Layer</li>
-                                        <li>1 node capable of an ingress of 1k messages / s with a typical gamification
-                                            ruleset (subjective)</li>
-                                    </ul>
-                                    <div class="space-top labels"> <span class="label label-keyword">RabbitMQ</span>  <span class="label label-keyword">Message Consumer</span> 
-                                        <span class="label label-keyword">Rules Engine</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                         <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested skill advanced"> <strong>Front End Development (advanced):</strong>  <span class="enumeration">HTML / CSS</span> 
-                                <span class="enumeration">Javascript ES6</span> <span class="enumeration">Vue.js</span>  <span class="enumeration">React</span> 
-                                    <span class="enumeration">AngularJS (v1)</span> <span class="enumeration">SASS</span>  <span class="enumeration">Redux, Event Emitters</span> 
-                                        <span class="enumeration">RxJS</span>
-                            </li>
-                            <li class="card-nested skill advanced"> <strong>Back End Development (advanced):</strong>  <span class="enumeration">C#</span> 
-                                <span class="enumeration">.NET Core</span> <span class="enumeration">Golang</span>  <span class="enumeration">RabbitMQ</span> 
-                                    <span class="enumeration">SQL</span> <span class="enumeration">Redis</span>  <span class="enumeration">Node.js</span> 
-                                        <span class="enumeration">ElasticSearch</span>
-                            </li>
-                            <li class="card-nested skill intermediate"> <strong>Tooling (intermediate):</strong>  <span class="enumeration">Babel</span> 
-                                <span class="enumeration">Webpack</span> <span class="enumeration">Gulp</span>  <span class="enumeration">Git</span> 
-                            </li>
-                            <li class="card-nested skill intermediate"> <strong>Testing (intermediate):</strong>  <span class="enumeration">XUnit</span> 
-                                <span class="enumeration">Nightwatch</span>
-                            </li>
-                            <li class="card-nested skill intermediate"> <strong>Monitoring (intermediate):</strong>  <span class="enumeration">Kibana</span> 
-                                <span class="enumeration">Sentry.io</span>
-                            </li>
-                        </ul>
-                         <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm"> <strong>Internet Application Development, Bachelor</strong>,&#xA0; Middlesex
-                                        University</p>
-                                    <p class="text-muted"> <small>
-                        Sep 2012 -  Apr 2014 
-                      </small>
-
-                                    </p> <i>4.0</i>
-
-                                    <div class="space-top labels"> <span class="label label-keyword">Intermediate Java</span>  <span class="label label-keyword">Intermediate VB.Net</span> 
-                                        <span class="label label-keyword">Advanced Web Technologies</span> <span class="label label-keyword">Client / Server Development</span> 
-                                            <span class="label label-keyword">Data Warehousing</span> <span class="label label-keyword">Project Management</span> 
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                         <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <div class="content has-sidebar">
-                                    <p class="clear-margin-sm" itemprop="award"> <strong>IDCS Roll of Honour</strong>,&#xA0; NCC Education</p>
-                                    <p class="text-muted"> <small> Awarded on: Mar 2013 </small>
-
-                                    </p>
-                                    <p></p>
-                                </div>
-                            </li>
-                        </ul>
-                         <h4 id="interests"> <span class="fa fa-lg fa-heart"></span> <span class="title">Interests</span> </h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <p> <strong>Outdoors</strong>
-
-                                </p>
-                                <div class="space-top labels"> <span class="label label-keyword">Camping</span>
- <span class="label label-keyword">Hiking</span>
-
-                                    <span class="label label-keyword">Road Running</span>
-                                </div>
-                            </li>
-                        </ul>
-                         <h4 id="references"><span class="fa fa-lg fa-thumbs-up"></span> <span class="title">References</span> </h4>
-
-                        <ul class="list-unstyled">
-                            <li class="card-nested">
-                                <p> <strong>Julian Camilleri</strong>
-
-                                </p>
-                                <blockquote class="quote">
-                                    <p class="clear-margin">Studying and working together (as my senior); I can put it quite clearly,
-                                        Jean is hard-working, and loves a good competition. He&apos;s a good asset
-                                        to any company, due to the fact that Jean has something that most don&apos;t;
-                                        He&apos;s ambitious, and the best feature we had in common is that he yearns
-                                        for knowledge; knowledge which can be seen in his work. It&apos;s a pleasure
-                                        to have worked with Jean, and I&apos;m looking forward to working with
-                                        him again someday.</p>
-                                </blockquote>
-                            </li>
-                        </ul>
-                         <h4 id="languages"><span class="fa fa-lg fa-language"></span> <span class="title">Languages</span> </h4>
-
-                        <p class="card-nested"> <span class="enumeration">
-                  <strong>English</strong> (Fluent)
-                </span>
- <span class="enumeration">
-                  <strong>Maltese</strong> (Native speaker)
-                </span>
-
-                            
-                    </p></div>
-                </div>
-            </section>
+    		<span class="location">
+    			<span class="city">H'Attard,</span>
+    			<span class="countryCode">MT</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fas fa-external-link-alt"></span>
+    				<a target="_blank" href="https://jf.mt">https://jf.mt</a>
+    			</div>
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a href="mailto:jeanfrg@gmail.com">jeanfrg@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a href="tel:(356) 79333016">(356) 79333016</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/frg">frg</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://linkedin.com/in/jeanfarrugia">jeanfarrugia</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-stack-overflow stack-overflow social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://stackoverflow.com/users/2889498">jeanfrg</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p>Born and bred on the island of Malta, Jean has earned a degree with honors from the University of Middlesex. Before his work in iGaming, he worked for a company named i2b Studio right out of University, where digitalizing Maltese Education was the name of the game. While his work currently focuses mainly on Web Development, occasionally he opts for various kinds of projects were getting shit done is the formula that reigns. His non-work interests still hail under the tech umbrella. Everything from a chess desktop application that detects &amp; analyses the chessboard using OpenCV &amp; Stockfish to programatically ensuring that a grocery delivery slot is booked at the height of Covid19.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+    	<header>
+    		<h2 class="section-title">Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Front End Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML / CSS</li>
+    				<li>Javascript ES6</li>
+    				<li>Vue.js (v2.5)</li>
+    				<li>React</li>
+    				<li>AngularJS (v1.0)</li>
+    				<li>SASS</li>
+    				<li>Redux</li>
+    				<li>Event Emitters</li>
+    				<li>RxJS</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Back End Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>C#</li>
+    				<li>.NET Core</li>
+    				<li>Golang</li>
+    				<li>RabbitMQ</li>
+    				<li>SQL</li>
+    				<li>Redis</li>
+    				<li>Node.js</li>
+    				<li>ElasticSearch</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				CI/CD
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>TeamCity</li>
+    				<li>Octopus Deploy</li>
+    				<li>GitHub Actions</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Tooling
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Babel</li>
+    				<li>Webpack</li>
+    				<li>Git</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Testing
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>XUnit</li>
+    				<li>NUnit</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Monitoring
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Kibana</li>
+    				<li>Sentry.io</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Work Experience <span class="item-count">(6)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked">
+            <label for="work-item-0"></label>
+    
+    			<header class="clear">
+    				<div class="position">Team Lead</div>
+    				<div class="company">Gaming Innovation Group</div>
+    				<div class="date">
+    				  <span class="startDate">Mar 2019</span>
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>St. Julian's, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.</p></div>
+            <ul class="highlights">
+                <li><p>Ensure targets/deadlines are met</p></li>
+                <li><p>Shield the team from external disruptions</p></li>
+                <li><p>Work closely with the product owner and tech lead to prioritize and come up with specifications</p></li>
+                <li><p>Ensure that team and personal objectives are set and achieved</p></li>
+                <li><p>Responsible for Day-to-Day performance management including leave, recruitment, salary, team personal development together with Head of Software development</p></li>
+                <li><p>Provide feedback to team members on regular basis</p></li>
+                <li><p>Identify problem areas and available training</p></li>
+                <li><p>Participates within the recruitment process</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item">
+            <label for="work-item-1"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Software Engineer (Platform Development)</div>
+    				<div class="company">Gaming Innovation Group</div>
+    				<div class="date">
+    				  <span class="startDate">Jul 2018</span>
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>St. Julian's, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.</p></div>
+            <ul class="highlights">
+                <li><p>Planning &amp; Development on a payment gateway</p></li>
+                <li><p>Overseeing releases for the Swedish Regulation launch</p></li>
+                <li><p>Work on the Over-The-Counter integration for Hard Rock Casino</p></li>
+                <li><p>Contribution towards improvements within support processes</p></li>
+                <li><p>Mentoring &amp; Onboarding new recruits on the codebase</p></li>
+                <li><p>Takes initiative to elimate technical debt and elimating the reliance on a monolith system</p></li>
+                <li><p>Architecture &amp; Development of a service that transforms &amp; enhances RabbitMQ messages while being horizontally scalable &amp; performant</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item">
+            <label for="work-item-2"></label>
+    
+    			<header class="clear">
+    				<div class="position">Educator</div>
+    				<div class="company">ICE Malta</div>
+    				<div class="date">
+    				  <span class="startDate">Mar 2018</span>
+    					<span class="endDate">- Mar 2019</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>Zebbuġ, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>A leading ICT Academy in the heart of Europe delivering worldwide recognized certifications by Microsoft, LPI, The Digital Marketing Institute, Autodesk, Cisco and Adobe amongst other prestigious names. The Institute is renowned for the unique ISO 9001:2015 certified Study Experience.</p></div>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-3" type="checkbox" class="toggle-item">
+            <label for="work-item-3"></label>
+    
+    			<header class="clear">
+    				<div class="position">Senior Software Engineer (Brand Development)</div>
+    				<div class="company">Gaming Innovation Group</div>
+    				<div class="date">
+    				  <span class="startDate">Aug 2015</span>
+    					<span class="endDate">- Jul 2018</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>St. Julian's, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>GiG strives to be the leading platform and media provider for land-based operators worldwide via our innovative, scalable and quality technology. We help our partners to drive sustainable growth by delivering world-class gaming, betting, media and turnkey platform solutions and services to operators and their customers.</p></div>
+            <ul class="highlights">
+                <li><p>Planning &amp; Development of multiple Casino &amp; Sports brands looking to integrate with the GiG Core Platform</p></li>
+                <li><p>Development of multiple common Libraries &amp; SDK's (GiG Core Platform, Telesign, etc.)</p></li>
+                <li><p>Horizontally scalable, config defined Rules Engine, driven by the ingress of messages (File, RabbitMQ, etc.) w/ multiple egress options (APIs, Web Sockets, File, etc.)</p></li>
+                <li><p>Review &amp; Interview candidates for various Software Development roles</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item">
+            <label for="work-item-4"></label>
+    
+    			<header class="clear">
+    				<div class="position">Web Developer</div>
+    				<div class="company">Guts Gaming Limited (GiG Group)</div>
+    				<div class="date">
+    				  <span class="startDate">Mar 2015</span>
+    					<span class="endDate">- Aug 2015</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>Ta' Xbiex, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>Guts.com offers sports betting, poker and a huge collection of casino games from providers such as NetEnt, Microgaming, Quickspin, Evolution, Betsoft, NYX, Thunderkick and more</p></div>
+            <ul class="highlights">
+                <li><p>Maintaining &amp; Implementing new features including Registration, Tracking etc.</p></li>
+                <li><p>Creating responsive promotional pages that aim to be fun &amp; engaging</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-5" type="checkbox" class="toggle-item">
+            <label for="work-item-5"></label>
+    
+    			<header class="clear">
+    				<div class="position">Software Developer (Acting Lead)</div>
+    				<div class="company">i2b Studio</div>
+    				<div class="date">
+    				  <span class="startDate">Apr 2014</span>
+    					<span class="endDate">- Feb 2015</span>
+    				</div>
+    			</header>
+    
+    			<span class="location">
+    				<span class="fas fa-map-marker-alt"></span>
+    				<span>Qormi, Malta</span>
+    			</span>
+    
+         	<div class="item" id="work-item">
+            <div class="summary"><p>i2b Studio is one of the youngest and freshest business solutions companies around, offering an innovative and forward-looking approach to our all of our clients’ business needs in terms of technological systems, online presence and all types of marketing and branding.</p></div>
+            <ul class="highlights">
+                <li><p>Project Management</p></li>
+                <li><p>Website Development</p></li>
+                <li><p>Mobile Application Development using Cordova w/ AngularJS</p></li>
+                <li><p>Augmented Reality Mobile Applications aided by the Vuforia Framework</p></li>
+                <li><p>Architecture Design for small projects</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Projects <span class="item-count">(3)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Rules Engine</div>
+            <div class="date">
+              <span class="startDate">Jun 2016</span>
+              <span class="endDate">- Aug 2016</span>
+            </div>
+          </header>
+          <span class="website">
+            <a target="_blank" href="https://www.11.lv">https://www.11.lv</a>
+          </span>
+          <ul class="keywords">
+              <li>RabbitMQ</li>
+              <li>Message Consumer</li>
+              <li>Rules Engine</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Introduction of 11.lv's Gamification Layer</p></li>
+                <li><p>One node capable of an ingress of 1k messages / s with a typical gamification ruleset (subjective)</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">E-Book store / E-Reader (iOS / Windows Phone 8 / Windows 8)</div>
+            <div class="date">
+              <span class="startDate">Oct 2014</span>
+              <span class="endDate">- Feb 2015</span>
+            </div>
+          </header>
+          <ul class="keywords">
+              <li>E-Reader</li>
+              <li>AngularJS</li>
+              <li>Cordova</li>
+              <li>Security</li>
+              <li>Mobile</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Augmented Reality Tourism Native Android App using Unity</div>
+            <div class="date">
+              <span class="startDate">Apr 2014</span>
+              <span class="endDate">- May 2015</span>
+            </div>
+          </header>
+          <ul class="keywords">
+              <li>Vuforia</li>
+              <li>Mobile</li>
+              <li>Tourism</li>
+              <li>Augmented Reality</li>
+              <li>Unity</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor
+              </div>
+              <div class="area">
+                Internet Application Development
+              </div>
+              <div class="institution">
+                Middlesex University
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2012
+              </span>
+              <span class="endDate">
+              - 2014
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Intermediate Java</li>
+            <li>Intermediate VB.Net</li>
+            <li>Advanced Web Technologies</li>
+            <li>Client / Server Development</li>
+            <li>Data Warehousing</li>
+            <li>Project Management</li>
+          </ul>
+    
+          <div class="item">
+            <div class="gpa">
+              <strong> Grade:</strong> <span>4.0</span>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+    
+          <header class="clear">
+            <div class="header-left">
+              <div class="title">
+                IDCS Roll of Honour
+              </div>
+              <div class="awarder">
+                NCC Education
+              </div>
+            </div>
+            <div class="date">
+              2013
+            </div>
+          </header>
+          
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent">
+              <em>Fluent</em>
+              <div class="bar"></div>
+            </div>
+          </div>
         </div>
-    
+        <div class="display">
+          <h3 class="language">
+            Maltese
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Outdoors
+          </h3>
+          <ul class="keywords">
+            <li>Camping</li>
+            <li>Hiking</li>
+            <li>Road Running</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class="section-title">References</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <blockquote class="reference">
+            “ Studying and working together (as my senior); I can put it quite clearly, Jean is hard-working, and loves a good competition.   He's a good asset to any company, due to the fact that Jean has something that most don't; He's ambitious, and the best feature we had in common is that he yearns for knowledge; knowledge which can be seen in his work.  It's a pleasure to have worked with Jean, and I'm looking forward to working with him again someday. ”
+          </blockquote>
+          <div class="name">
+            Julian Camilleri
+          </div>
+        </div>
+      </section>
+    </section>
 
-</body></html>
+  
+
+</div></body></html>
